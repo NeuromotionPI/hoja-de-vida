@@ -1,10 +1,141 @@
 body {
- margin: 0
+ margin: 0;
+ font-family: "Lato", sans-serif;
+ color: #191970;
+
+}
+
+p {
+ margin: 0;
 }
 header {
- color: dodgerblue;
- background-color: red;
+ padding: 2rem;
+ color: #191970;
  display: flex;
  justify-content: center;
+ align-items: center;
  flex-direction: column;
+ font-size: 1.2rem;
+}
+a:hover {
+ color: orangered
+}
+.educationContainer {
+ display: flex;
+ flex-direction: column;
+ padding: 2rem 4rem 0 4rem;
+ gap: 1rem
+}
+.titulo {
+}
+.divider {
+ width: 100%;
+ height: 0.065rem;
+ background-color: orangered;
+}
+.articleContainer {
+ display: flex;
+ flex-direction: row;
+ gap: 4rem;
+ padding: 4rem;
+ justify-content: space-between;
+}
+.profileImage {
+ width: 20rem;
+ height: 20rem;
+ border-radius: 1rem;
+}
+.listaUniversidades {
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+.videoContainer {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.perfilTexto {
+ font-size: 1.5rem;
+ text-align: justify;
+}
+.lato-thin {
+ font-family: "Lato", sans-serif;
+ font-weight: 100;
+ font-style: normal;
+}
+.itemUniversidad {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.experienceList {
+ margin-left: 3rem;
+}
+.leftItem > * + * {
+ margin-top: 1rem;
+}
+.experienceList > * + * {
+ margin-top: 0.5rem;
+}
+.itemUniversidadDescripcion > *+* {
+ margin-top: 0.5rem;
+}
+.lato-light {
+ font-family: "Lato", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+}
+
+.lato-regular {
+ font-family: "Lato", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.lato-bold {
+ font-family: "Lato", sans-serif;
+ font-weight: 700;
+ font-style: normal;
+}
+
+.lato-black {
+ font-family: "Lato", sans-serif;
+ font-weight: 900;
+ font-style: normal;
+}
+
+.lato-thin-italic {
+ font-family: "Lato", sans-serif;
+ font-weight: 100;
+ font-style: italic;
+}
+
+.lato-light-italic {
+ font-family: "Lato", sans-serif;
+ font-weight: 300;
+ font-style: italic;
+}
+
+.lato-regular-italic {
+ font-family: "Lato", sans-serif;
+ font-weight: 400;
+ font-style: italic;
+}
+
+.lato-bold-italic {
+ font-family: "Lato", sans-serif;
+ font-weight: 700;
+ font-style: italic;
+}
+
+.lato-black-italic {
+ font-family: "Lato", sans-serif;
+ font-weight: 900;
+ font-style: italic;
+}
+
+.name {
+ font-size: 4rem;
 }
